@@ -1,0 +1,21 @@
+.prova{
+    width: 200px;
+    
+}
+.carosello {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; /* Opzionale: per uno scorrimento più fluido */
+    -ms-overflow-style: none; /* Per nascondere la scrollbar su IE/Edge */
+    scrollbar-width: none; /* Per nascondere la scrollbar su Firefox */
+}
+
+.carosello::-webkit-scrollbar {
+    display: none; /* Nasconde la scrollbar su WebKit/Blink */
+}
+
+.carosello img {
+    flex: 0 0 auto;
+    width: 280px; /* Larghezza fissa per ogni immagine */
+    margin-right: 10px; /* Spazio tra le immagini */
+}
