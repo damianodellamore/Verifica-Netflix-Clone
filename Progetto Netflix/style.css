@@ -19,3 +19,18 @@
     width: 280px; /* Larghezza fissa per ogni immagine */
     margin-right: 10px; /* Spazio tra le immagini */
 }
+
+.edit{
+    border: 1px solid gray;
+    background-color: black;
+    color:gray;
+    padding: 10px 25px;
+    margin:15px;
+}
+hr{
+    color:gray;
+}
+body{
+    height:100vh; background-color: black;
+}
+
